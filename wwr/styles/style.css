@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
 .content{
     max-width: 1600px;
     margin: 0 auto;
 }
-nav{text-align: center;}
+nav{text-align: center;
+    padding: 35px;}
 a{text-align: center;
 color: black;
-text-decoration: none;}
+text-decoration: none;
+padding: 35px;}
 .hero-msg{text-align: center;}
 h1{text-align: center;
+    font-family: "Saira Stencil One";
+
 }
 h4{text-align: center;
 color: white;}
@@ -20,9 +26,14 @@ section{ text-align: center;}
 }
 body{
     background-color: #3A7CA5 ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color:#B5E2FA;
+    font-family: "Saira Stencil One";
     
 }
 nav{
@@ -39,8 +50,17 @@ a:hover{
     background-color:#B5E2FA ;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.Join{background-color: #B5E2FA;}
+.Join{background-color: #B5E2FA;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
 .book:hover{
     background-color: white;
     color: blue;
@@ -54,19 +74,63 @@ color: blue;}
 .msg{
 background-color: #B5E2FA;
 color: black;
+padding: 35px;
 }
 footer a{
     text-decoration: none;
 }
 .home-title{
     color: white;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .logo{width: 200px;}
 #hero-img{width: 100%;}
-.icon{width: 80px;}
+.icon{width: 80px;
+padding-top: 10px;}
 footer h3{
     text-decoration: underline;
 }
 .home-grid{
     color:white;
+}
+h2{
+    font-family: "Saira Stencil One";
+    margin: 0;
+
+}
+p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+   padding-top: 15px; 
+}
+nav a{
+    padding: 35px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0; 
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
+}
+.msg p{
+    font-size: .8em;
 }
