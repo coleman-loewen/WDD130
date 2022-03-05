@@ -90,7 +90,7 @@ footer a{
     font-size: 2em;
     margin-top: 10px;
 }
-.logo{width: 200px;}
+.logo{width: 175px;}
 #hero-img{width: 100%;}
 .icon{width: 80px;
 padding-top: 10px;}
@@ -189,7 +189,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
-.card-img, .mountains {
+.card-img, .mountains, .riverimg {
     width: 100%;
 }
 .mountains {
@@ -199,6 +199,27 @@ nav {
     box-shadow: 5px 5px 10px black;
 
 }
+.rivers1{
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.rivers2{
+    margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rivers3{
+    margin: 200px 0; 
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.riverimg{
+    border: 10px solid #B5E2FA;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px white;}
+
+
 
 
 
