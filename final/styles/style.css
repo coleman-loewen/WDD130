@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+.hero-msg{text-align: center;}
+.content{
+    max-width: 1600px;
+    margin: 0 auto;}
+.hero{ text-align: center;}
+#hero-img{width: 100%;}
+.home-title{
+    color: white;
+    font-size: 2em;
+    margin-top: 10px;}
+
+footer{
+
+    padding: 25px 50px;
+    margin-top: 200px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: #03BD42;
+}
+.logo{width: 100px;}
+header{
+    background-color: black;
+    font-family: "Share Tech", "Lato", "Serif";
+    font-style: bold;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;}
+.links{
+    color:#03BD42;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+a.links{text-align: center;
+    color: #03BD42;
+    text-decoration: none;
+    padding-right: 250px;}
+a.links:hover{
+    background-color:white;
+}
+#logo_link{
+    padding-top: 175px;
+    padding-right:0px;
+}
+.home-title{
+    color: #03BD42;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#hero-box{
+    position: relative;
+}
+#hero-msg-1{
+    position:absolute;
+    bottom: 500px;
+    right: 20px;
+    background-color: black;
+    color: #03BD42;
+    font-family: "Share Tech", "Lato", "Serif";
+    text-align: center;
+}
+#hero-msg-2{
+    position: absolute;
+    bottom: -20px;
+    right: 1000px;
+    background-color: black;
+    color: #03BD42;
+    font-family: "Share Tech", "Lato", "Serif";
+    text-align: center;
+}
+main{
+    margin-right: 100px;
+    margin-left: 100px;
+}
